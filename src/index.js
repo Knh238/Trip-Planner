@@ -11,8 +11,11 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
 
-var pos=buildMarker('activity',[-74.009, 40.705])
-pos.addTo(map);
-
+var pos1=buildMarker('activity',[-74.009, 40.705])
+pos1.addTo(map);
+var pos2=buildMarker('hotel',[-73.009, 41.705])
+pos2.addTo(map);
+var pos3=buildMarker('restaurant',[-75.009, 42.705])
+pos3.addTo(map);
 //new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map);
 
